@@ -1,4 +1,4 @@
-/*var possible = ["Andres", "Austen", "Austin", "Chase", "Jimmy", "Nate", "Nick" ];
+var possible = ["Andres", "Austen", "Austin", "Chase", "Jimmy", "Nate", "Nick" ];
 var matchFound = false;
 var question;
 
@@ -86,9 +86,9 @@ function askBsq() {
 
 //------------------------------------------------------
 
-//var name = prompt("What is your name?");
-//var age = prompt("What is your age?");
-//var gender = prompt("What is your gender?");
+var name = prompt("What is your name?");
+var age = prompt("What is your age?");
+var gender = prompt("What is your gender?");
 
 
 //Do you like tall men?
