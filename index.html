@@ -13,6 +13,29 @@ layout: default
 
 <script src="script.js"></script>
 
+
+<div class="hidden">
+	<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"img/img_nick.JPG",
+				"img/img_austin.JPG",
+				"img/img_austen.JPG",
+				"img/img_andres.JPG",
+				"img/img_chase.JPG", 
+				"img/img_jimmy.JPG"
+			)
+		//--><!]]>
+	</script>
+</div>
+
 <body>
 
 </html>
