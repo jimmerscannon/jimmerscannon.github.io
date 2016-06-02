@@ -7,12 +7,11 @@
 
 # Site settings
 title: DANK MEMES!!!
-email: your-email@domain.com
+#email: your-email@domain.com
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+#baseurl: "" # the subpath of your site, e.g. /blog
+#url: "http://yourdomain.com" # the base hostname & protocol for your site
+
 
 # Build settings
 markdown: kramdown
