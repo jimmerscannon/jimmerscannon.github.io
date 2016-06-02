@@ -177,7 +177,7 @@ function printPossible() {
 
 function displayImage() {
 	var image = document.getElementById("person");
-	image.src = ("img/img_"+possible[0].toLowerCase()+".jpg");
+	image.src = ("img/img_"+possible[0].toLowerCase()+".JPG");
 }
 
 printPossible();
