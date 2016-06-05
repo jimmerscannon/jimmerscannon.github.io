@@ -49,7 +49,7 @@ function question5() {
 }
 
 function question6() {
-	question = confirm("Do you like baseball players?\n(Ok for yes, Cancel for no)");
+	question = confirm("Do you like men with cars?\n(Ok for yes, Cancel for no)");
 	if (question) {
 		return true;
 	} else {
