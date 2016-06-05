@@ -179,4 +179,10 @@ body
 
 .ttt {
     background-image: url("img/feels.png");
+    background-size: 1050px;
+    background-position: center;
+}
+
+.index {
+   background-image: url("img/man.png");
 }
