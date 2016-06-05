@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link rel='stylesheet' href='style.css'/>
-  <script src="script.js"></script>
+
   </head>
   <body>
 		<div class="header">
@@ -26,7 +26,33 @@
     </div>
     
     <div class="main">
-    	
+    <div class="container">
+    <div class="row">
+    <div class="col-sm-offset-5 col-sm-2 text-center">
+        <div class="btn-group" data-toggle="buttons">
+            <a class="myButton" id="mylink">Play Game</a>
+            
+
+			<script type="text/javascript">
+
+			var myLink = document.getElementById('mylink');
+
+			myLink.onclick = function(){
+
+    			var script = document.createElement("script");
+    			script.type = "text/javascript";
+    			script.src = "script.js."; 
+    			document.getElementsByTagName("head")[0].appendChild(script);
+    			return false;
+
+}
+
+
+			</script>
+        </div>
+    </div>
+</div>
+    </div>
     </div>
     
     <div class="footer">
@@ -46,5 +72,6 @@
         </div>
       </div>
     </div>
+
   </body>
 </html>
