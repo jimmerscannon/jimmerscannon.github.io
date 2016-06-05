@@ -153,3 +153,26 @@ body
   position:relative;
   top:1px;
 }
+
+.gallery {
+  width: 728px;
+  margin: auto;
+}
+
+.gallery ul {
+  list-style: none;
+}
+
+.gallery li {
+  float: left;
+  margin: 10px;
+}
+
+.gallery img {
+  display: block;
+  padding: 5px;
+}
+
+.gallery img:hover {
+  border: 1px solid #fff;
+}
