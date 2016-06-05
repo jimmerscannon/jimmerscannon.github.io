@@ -28,22 +28,22 @@
 <div class="gallery">
 
 <ul>
-<li><a href="img/img_austin2.JPG"><img src="img/img_austin2.JPG" width="150" height="150" alt="Pic"></li>
-<li><img src="img/img_nick3.JPG" width="150" height="150" alt="Pic"></li>
-<li><img src="img/img_chase.JPG" width="150" height="150" alt="Pic"></li>
-<li><img src="img/img_jimmy.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_austin2.JPG"><img src="img/img_austin2.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_nick3.JPG"><img src="img/img_nick3.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_chase.JPG"><img src="img/img_chase.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_jimmy.JPG"><img src="img/img_jimmy.JPG" width="150" height="150" alt="Pic"></li>
 </ul>
 <ul>
-<li><img src="img/img_nate2.JPG" width="150" height="150" alt="Pic"></li>
-<li><img src="img/img_nick.JPG" width="150" height="150" alt="Pic"></li>
-<li><img src="img/img_jimmy2.JPG" width="150" height="150" alt="Pic"></li>
-<li><img src="img/img_austen.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_nate2.JPG"><img src="img/img_nate2.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_nick.JPG"><img src="img/img_nick.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_jimmmy2.JPG"><img src="img/img_jimmy2.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_austen.JPG"><img src="img/img_austen.JPG" width="150" height="150" alt="Pic"></li>
 </ul>
 <ul>
-<li><img src="img/img_jimmy4.JPG" width="150" height="150" alt="Pic"></li>
-<li><img src="img/img_andres.JPG" width="150" height="150" alt="Pic"></li>
-<li><img src="img/img_jimmy3.JPG" width="150" height="150" alt="Pic"></li>
-<li><img src="img/img_austin3.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_jimmy4.JPG"><img src="img/img_jimmy4.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_andres.JPG"><img src="img/img_andres.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_jimmy3.JPG"><img src="img/img_jimmy3.JPG" width="150" height="150" alt="Pic"></li>
+<li><a class="fancybox" rel="group" href="img/img_austin3.JPG"><img src="img/img_austin3.JPG" width="150" height="150" alt="Pic"></li>
 </ul>
 </div>
 
@@ -66,5 +66,16 @@
         </div>
       </div>
     </div>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+<link rel="stylesheet" href="source/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="source/jquery.fancybox.pack.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		$(".fancybox").fancybox();
+	});
+</script>
+
+
   </body>
 </html>
