@@ -293,7 +293,7 @@ switch(match) {
 	case "joan":
 		document.getElementById("s1").innerHTML = "Joan of Arc";
 		var image = document.getElementById("person");
-		image.src = ("img/img_"+match+".jpg");
+		image.src = ("img/img_"+match+".png");
 		break;
 	case "trans":
 		document.getElementById("s1").innerHTML = "Transformer Girl";
