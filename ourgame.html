@@ -26,11 +26,15 @@
     </div>
     
     <div class="main">
+
+    <audio id="music" src="ed.mp3" preload="auto"></audio>
+
     <div class="container">
     <div class="row">
     <div class="col-sm-offset-5 col-sm-2 text-center">
         <div class="btn-group" data-toggle="buttons">
             <a class="myButton" id="mylink">Play Game</a>
+            <a class="myButton" id="musicButton" onclick="playMusic()">Set Mood</a>
             <br><br>
             <h3>You have been matched with: </h3>
             <br><br>
@@ -41,6 +45,15 @@
 			<script type="text/javascript">
 
 			var myLink = document.getElementById('mylink');
+
+      var playMusic = function() {
+        var audio = document.getElementById("music");
+        if (audio.paused) {
+          audio.play();
+        } else {
+          audio.pause();
+        }
+      }
 
 			myLink.onclick = function(){
 
