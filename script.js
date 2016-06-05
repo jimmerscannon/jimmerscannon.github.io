@@ -171,7 +171,7 @@ if(question5()) {
 function printPossible() {
 	for (var i = 0; i < possible.length; i++) {
 		console.log(possible[i]);
-		document.getElementById("s1").innerHTML = possible[i];
+		//document.getElementById("s1").innerHTML = possible[i];
 	}
 }
 
