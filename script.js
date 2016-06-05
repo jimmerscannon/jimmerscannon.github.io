@@ -149,9 +149,9 @@ function askBsq() {
 
 //var name = prompt("What is your name?");
 //var age = prompt("What is your age?");
-var gender = prompt("What is your gender?\n(male or female)");
+var gender = confirm("What is your gender?\n(Ok for male, cancel for female)");
 
-if (gender.toLowerCase() === "female") {  //Female storyline (ADD STORY!!!!!!!!!!!!!)
+if (!gender) {  //Female storyline (ADD STORY!!!!!!!!!!!!!)
 possible = ["Andres", "Austen", "Austin", "Chase", "Jimmy", "Nate", "Nick" ];
 
 //Do you like tall men?
