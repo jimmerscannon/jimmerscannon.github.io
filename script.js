@@ -293,27 +293,27 @@ switch(match) {
 	case "joan":
 		document.getElementById("s1").innerHTML = "Joan of Arc";
 		var image = document.getElementById("person");
-		image.src = ("img/img_"+match+".JPG");
+		image.src = ("img/img_"+match+".jpg");
 		break;
 	case "trans":
 		document.getElementById("s1").innerHTML = "Transformer Girl";
 		var image = document.getElementById("person");
-		image.src = ("img/img_"+match+".JPG");
+		image.src = ("img/img_"+match+".jpg");
 		break;
 	case "saca":
 		document.getElementById("s1").innerHTML = "Sacagawea";
 		var image = document.getElementById("person");
-		image.src = ("img/img_"+match+".JPG");
+		image.src = ("img/img_"+match+".jpg");
 		break;
 	case "monica":
 		document.getElementById("s1").innerHTML = "Monica Lewinsky";
 		var image = document.getElementById("person");
-		image.src = ("img/img_"+match+".JPG");
+		image.src = ("img/img_"+match+".jpg");
 		break;
 	case "marilyn":
 		document.getElementById("s1").innerHTML = "Marilyn Monroe";
 		var image = document.getElementById("person");
-		image.src = ("img/img_"+match+".JPG");
+		image.src = ("img/img_"+match+".jpg");
 		break;
 
 }
